@@ -1,0 +1,11 @@
+module com.iktwo.components
+Label 1.0 Label.qml
+Menu 1.0 Menu.qml
+MenuTextItem 1.0 MenuTextItem.qml
+Button 1.0 Button.qml
+ImageButton 1.0 ImageButton.qml
+Dialog 1.0 Dialog.qml
+TitleBar 1.0 TitleBar.qml
+Divider 1.0 Divider.qml
+Style 1.0 style.js
+plugin components
