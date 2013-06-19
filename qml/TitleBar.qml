@@ -6,7 +6,6 @@ Item {
     id: root
 
     property alias title: titleLabel.text
-    property alias author: mainPageAuthorText.text
     property alias color: container.color
 
     width: parent.width
@@ -27,17 +26,6 @@ Item {
             }
 
             font.pixelSize: 35
-        }
-
-        Label {
-            id: mainPageAuthorText
-
-            anchors {
-                verticalCenter: titleLabel.verticalCenter
-                right: parent.right; rightMargin: 15
-            }
-
-            font.pixelSize: 22
         }
     }
 }

@@ -25,7 +25,8 @@ OTHER_FILES = \
     qml/Dialog.qml \
     qml/TitleBar.qml \
     qml/Divider.qml \
-    qml/style.js
+    qml/style.js \
+    qml/TitleBarImageButton.qml
 
 #qmldir.files = qml/qmldir
 qmldir.files += $$files(qml/*)
