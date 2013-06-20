@@ -26,7 +26,8 @@ OTHER_FILES = \
     qml/TitleBar.qml \
     qml/Divider.qml \
     qml/style.js \
-    qml/TitleBarImageButton.qml
+    qml/TitleBarImageButton.qml \
+    qml/TitleBarTextInput.qml
 
 #qmldir.files = qml/qmldir
 qmldir.files += $$files(qml/*)
@@ -36,3 +37,6 @@ qmldir.path = $$installPath
 target.path = $$installPath
 
 INSTALLS += target qmldir
+
+RESOURCES += \
+    resources.qrc

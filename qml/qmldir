@@ -7,6 +7,7 @@ ImageButton 1.0 ImageButton.qml
 Dialog 1.0 Dialog.qml
 TitleBar 1.0 TitleBar.qml
 TitleBarImageButton 1.0 TitleBarImageButton.qml
+TitleBarTextInput 1.0 TitleBarTextInput.qml
 Divider 1.0 Divider.qml
 Style 1.0 style.js
 plugin components
